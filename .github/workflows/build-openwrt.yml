@@ -46,8 +46,8 @@ jobs:
     - name: Hello World
       if: github.event.action == 'helloworld'
       run: |
-        echo My name is LANCE.
-        echo Hello World!
+        echo My name is LANCE-ANDY.
+        echo Hello Andy!
           
     - name: Checkout
       uses: actions/checkout@master
